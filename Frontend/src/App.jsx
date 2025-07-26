@@ -12,7 +12,7 @@ import AdminPage from './Pages/AdminPage';
 import Donate from './Pages/Donate';
 import About from './Pages/AboutPage';
 import Contact from './Pages/ContactPage';
-import StoryPage from './Pages/StoryPage';
+import StoryPage from './Pages/Storypage';
 
 // ✅ Optional: HomePage extracted for clarity
 const HomePage = () => (
