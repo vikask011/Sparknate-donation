@@ -11,8 +11,8 @@ const app = express();
 
 // CORS Configuration
 const allowedOrigins = [
-  'https://sparknate-donation.vercel.app', // backend
-  'https://sparknate-donation-qpsd.vercel.app' // frontend
+  
+  'https://sparknate-donation-qpsd.vercel.app' 
 ];
 
 app.use(cors({
