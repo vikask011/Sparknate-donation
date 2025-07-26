@@ -11,7 +11,7 @@ const Donate = () => {
   useEffect(() => {
     const fetchCauses = async () => {
       try {
-        const res = await axios.get('https://sparknate-donation.vercel.app//api/causes');
+        const res = await axios.get('https://sparknate-donation.vercel.app/api/causes');
         setCauses(res.data);
       } catch (error) {
         console.error('Error fetching causes:', error);
