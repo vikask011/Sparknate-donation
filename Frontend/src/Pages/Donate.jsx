@@ -40,7 +40,7 @@ const Donate = () => {
 
       const selectedCause = causes.find((cause) => cause._id === id);
 
-      const res = await axios.post('http://localhost:5000/api/stripe/create-checkout-session', {
+      const res = await axios.post('https://sparknate-donation.vercel.app/api/stripe/create-checkout-session', {
         title: selectedCause.title,
         amount: enteredAmount,
       });
