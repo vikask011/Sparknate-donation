@@ -9,11 +9,26 @@ import stripeRoutes from './routes/stripeRoutes.js';
 dotenv.config();
 const app = express();
 
-// Middleware
-app.use(cors());
+// CORS Configuration
+const allowedOrigins = [
+  'https://sparknate-donation.vercel.app', // backend
+  'https://sparknate-donation-qpsd.vercel.app' // frontend
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
+}));
+
 app.use(express.json());
 
-// Static folder (optional if you're using local uploads for anything else)
+// Static folder
 const __dirname = path.resolve();
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
