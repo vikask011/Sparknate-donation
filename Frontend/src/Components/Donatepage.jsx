@@ -10,7 +10,7 @@ const DonatePage = () => {
   useEffect(() => {
     const fetchCauses = async () => {
       try {
-        const response = await axios.get("https://sparknate-donation.vercel.app//api/causes");
+        const response = await axios.get("https://sparknate-donation.vercel.app/api/causes");
         let fetchedCauses = response.data;
 
         // If backend has no causes, use dummy data
