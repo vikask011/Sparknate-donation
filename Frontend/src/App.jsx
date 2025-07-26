@@ -8,7 +8,7 @@ import BottomBanner from './Components/BottomBanner';
 import Footer from './Components/Footer';
 
 // Page Components
-import AdminPage from './Pages/AdminPage';
+import AdminPage from './Pages/Adminpage';
 import Donate from './Pages/Donate';
 import About from './Pages/AboutPage';
 import Contact from './Pages/ContactPage';
