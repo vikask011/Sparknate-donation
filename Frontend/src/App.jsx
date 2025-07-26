@@ -10,8 +10,8 @@ import Footer from './Components/Footer';
 // Page Components
 import AdminPage from './Pages/Adminpage';
 import Donate from './Pages/Donate';
-import About from './Pages/AboutPage';
-import Contact from './Pages/ContactPage';
+import About from './Pages/Aboutpage';
+import Contact from './Pages/Contactpage';
 import StoryPage from './Pages/Storypage';
 
 // ✅ Optional: HomePage extracted for clarity
