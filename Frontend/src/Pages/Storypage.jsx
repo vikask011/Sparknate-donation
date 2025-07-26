@@ -13,7 +13,7 @@ const StoryPage = () => {
   useEffect(() => {
     const fetchCause = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/causes/${id}`);
+        const res = await axios.get(`https://sparknate-donation.vercel.app//api/causes/${id}`);
         setCause(res.data);
       } catch (err) {
         setError("Cause not found!");
