@@ -1,4 +1,4 @@
-# 💖 SparkNate Donation
+# SparkNate Donation
 
 **SparkNate** is a curated donation platform where only verified campaigns added by admins are showcased. It focuses on **trust**, **transparency**, and **impact**, making it easier for people to contribute to genuine causes.
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Frontend:
 - **React.js**
